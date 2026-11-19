@@ -1,0 +1,425 @@
+[2026-11-18 17:54:12] [INFO] Security audit started with profile basic | Action: Audit initialized
+[2026-11-18 17:54:12] [WARNING] check_password_policy module not available yet | Action: Create the required check module
+[2026-11-18 17:54:12] [WARNING] check_ssh_security module not available yet | Action: Create the required check module
+[2026-11-18 17:54:12] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 18:00:46] [INFO] Security audit started with profile basic | Action: Audit initialized
+[2026-11-18 18:00:46] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 18:00:46] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 18:00:46] [WARNING] check_ssh_security module not available yet | Action: Create the required check module
+[2026-11-18 18:00:46] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 18:10:06] [INFO] Security audit started with profile basic | Action: Audit initialized
+[2026-11-18 18:10:06] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 18:10:06] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 18:10:07] [HIGH] Root SSH login is not explicitly disabled | Action: Set PermitRootLogin no in /etc/ssh/sshd_config
+[2026-11-18 18:10:07] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 18:12:24] [INFO] Security audit started with profile standard | Action: Audit initialized
+[2026-11-18 18:12:24] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 18:12:24] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 18:12:24] [HIGH] Root SSH login is not explicitly disabled | Action: Set PermitRootLogin no in /etc/ssh/sshd_config
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:12:24] [WARNING] check_world_writable module not available yet | Action: Create the required check module
+[2026-11-18 18:12:24] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 18:37:07] [INFO] Security audit started with profile standard | Action: Audit initialized
+[2026-11-18 18:37:07] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 18:37:07] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 18:37:07] [HIGH] Root SSH login is not explicitly disabled | Action: Set PermitRootLogin no in /etc/ssh/sshd_config
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:07] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/member | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/user | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/relabel | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/create | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/access | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /selinux/context | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /linux/abc | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [HIGH] World-writable file detected: /linux/xyz | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:37:23] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 18:39:02] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-18 18:39:02] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 18:39:02] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 18:39:02] [HIGH] Root SSH login is not explicitly disabled | Action: Set PermitRootLogin no in /etc/ssh/sshd_config
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:02] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/member | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/user | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/relabel | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/create | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/access | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /selinux/context | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /linux/abc | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [HIGH] World-writable file detected: /linux/xyz | Action: Review file ownership and remove unnecessary world-write permission
+[2026-11-18 18:39:03] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-18 18:39:03] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-18 18:39:03] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-18 18:39:03] [HIGH] Unexpected permissions on /etc/shadow: 0 | Action: Review and restrict access to the shadow file
+[2026-11-18 18:39:03] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 19:02:21] [INFO] Security audit started with profile basic | Action: Audit initialized
+[2026-11-18 19:02:21] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 19:02:21] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 19:02:21] [HIGH] Root SSH login is not explicitly disabled | Action: Disable root SSH login
+[2026-11-18 19:02:22] [INFO] Root SSH login successfully disabled | Action: Backup saved at /etc/ssh/sshd_config.backup.20261118_190221
+[2026-11-18 19:02:22] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 19:17:11] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-18 19:17:11] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 19:17:11] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 19:17:11] [INFO] Root SSH login is disabled | Action: No action required
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:11] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/member | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/user | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/relabel | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/create | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/access | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /selinux/context | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /linux/abc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [HIGH] World-writable file detected: /linux/xyz | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:12] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-18 19:17:12] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-18 19:17:12] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-18 19:17:12] [INFO] Secure permissions on /etc/passwd: 644 | Action: No action required
+[2026-11-18 19:17:12] [HIGH] Unexpected permissions on /etc/shadow: 0 | Action: Set permissions to 000 after review
+[2026-11-18 19:17:12] [INFO] Secure permissions on /etc/ssh/sshd_config: 600 | Action: No action required
+[2026-11-18 19:17:12] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 19:17:31] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-18 19:17:31] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 19:17:31] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 19:17:31] [INFO] Root SSH login is disabled | Action: No action required
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:31] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/member | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/user | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/relabel | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/create | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/access | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /selinux/context | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /linux/abc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [HIGH] World-writable file detected: /linux/xyz | Action: Remove unnecessary world-write permission
+[2026-11-18 19:17:32] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-18 19:17:32] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-18 19:17:32] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-18 19:17:32] [INFO] Secure permissions on /etc/passwd: 644 | Action: No action required
+[2026-11-18 19:17:32] [HIGH] Unexpected permissions on /etc/shadow: 0 | Action: Set permissions to 000 after review
+[2026-11-18 19:17:32] [INFO] Permissions corrected on /etc/shadow | Action: Backup saved at /etc/shadow.backup.20261118_191732
+[2026-11-18 19:17:32] [INFO] Secure permissions on /etc/ssh/sshd_config: 600 | Action: No action required
+[2026-11-18 19:17:32] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-18 19:27:42] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-18 19:27:42] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-18 19:27:42] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-18 19:27:42] [INFO] Root SSH login is disabled | Action: No action required
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:36776 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp :::53258 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp 127.0.0.1:974 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp 0.0.0.0:912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp 0.0.0.0:34458 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp :::912 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [MEDIUM] Network endpoint detected: udp :::55081 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/member | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/user | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/relabel | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/create | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/access | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /selinux/context | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /linux/abc | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [HIGH] World-writable file detected: /linux/xyz | Action: Remove unnecessary world-write permission
+[2026-11-18 19:27:42] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-18 19:27:42] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-18 19:27:42] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-18 19:27:42] [INFO] Secure permissions on /etc/passwd: 644 | Action: No action required
+[2026-11-18 19:27:42] [HIGH] Unexpected permissions on /etc/shadow: 0 | Action: Set permissions to 000 after review
+[2026-11-18 19:27:42] [INFO] Secure permissions on /etc/ssh/sshd_config: 600 | Action: No action required
+[2026-11-18 19:27:42] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-19 08:14:59] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-19 08:14:59] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-19 08:14:59] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-19 08:14:59] [INFO] Root SSH login is disabled | Action: No action required
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:41273 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp :::46371 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp 127.0.0.1:964 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp 0.0.0.0:40648 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp 0.0.0.0:903 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp :::903 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:14:59] [MEDIUM] Network endpoint detected: udp :::49679 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/member | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/user | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/relabel | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/create | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/access | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /selinux/context | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /linux/abc | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:10] [HIGH] World-writable file detected: /linux/xyz | Action: Remove unnecessary world-write permission
+[2026-11-19 08:15:11] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-19 08:15:11] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-19 08:15:11] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-19 08:15:11] [INFO] Secure permissions on /etc/passwd: 644 | Action: No action required
+[2026-11-19 08:15:11] [HIGH] Unexpected permissions on /etc/shadow: 0 | Action: Set permissions to 000 after review
+[2026-11-19 08:15:11] [INFO] Secure permissions on /etc/ssh/sshd_config: 600 | Action: No action required
+[2026-11-19 08:15:11] [INFO] Security audit completed | Action: Review the generated audit log
+[2026-11-19 08:25:37] [INFO] Security audit started with profile full | Action: Audit initialized
+[2026-11-19 08:25:37] [HIGH] Minimum password length is insecure: 5 | Action: Set PASS_MIN_LEN to 8 in /etc/login.defs
+[2026-11-19 08:25:37] [MEDIUM] Password maximum age is too high: 99999 days | Action: Set PASS_MAX_DAYS to 90 in /etc/login.defs
+[2026-11-19 08:25:37] [INFO] Root SSH login is disabled | Action: No action required
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 127.0.0.1:25 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:41273 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp 0.0.0.0:445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp :::46371 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp :::139 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp :::111 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp :::22 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp ::1:631 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: tcp :::445 (LISTEN) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp 127.0.0.1:964 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp 0.0.0.0:40648 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp 0.0.0.0:111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp 0.0.0.0:631 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp 0.0.0.0:903 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp :::111 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp :::903 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:37] [MEDIUM] Network endpoint detected: udp :::49679 (N/A) | Action: Review the service and restrict unnecessary network access
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /linux500/xyz.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /linux500/abc.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /home/student/batch4/pqr | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /home/student/batch16/pqr | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/member | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/user | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/relabel | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/create | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/access | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /selinux/context | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.net | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bashrc | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/python | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/java | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/lsa | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_profile | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/batch5/.bash_logout | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f1 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/sample.txt | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:38] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f2 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:39] [HIGH] World-writable file detected: /root/.local/share/Trash/files/linuxdata/f3 | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:39] [HIGH] World-writable file detected: /linux/abc | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:39] [HIGH] World-writable file detected: /linux/xyz | Action: Remove unnecessary world-write permission
+[2026-11-19 08:25:39] [INFO] No additional UID 0 accounts detected | Action: No action required
+[2026-11-19 08:25:39] [INFO] No empty password accounts detected | Action: No action required
+[2026-11-19 08:25:39] [INFO] User account audit completed. Total accounts: 49 | Action: Review account list regularly
+[2026-11-19 08:25:39] [INFO] Secure permissions on /etc/passwd: 644 | Action: No action required
+[2026-11-19 08:25:39] [INFO] Secure permissions on /etc/shadow: 0 | Action: No action required
+[2026-11-19 08:25:39] [INFO] Secure permissions on /etc/ssh/sshd_config: 600 | Action: No action required
+[2026-11-19 08:25:39] [INFO] Security audit completed | Action: Review the generated audit log
